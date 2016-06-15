@@ -1,6 +1,10 @@
 // only works with java_server archetype
 enablePlugins(JavaServerAppPackaging)
 
+
+scalaVersion := "2.11.8"
+//scalaVersion := "2.10.6"
+
 name := "rpm-test"
 
 version := "0.1.0"
